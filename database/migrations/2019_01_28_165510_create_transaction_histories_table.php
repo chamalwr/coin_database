@@ -19,6 +19,7 @@ class CreateTransactionHistoriesTable extends Migration
             $table->string('date');
             $table->string('amount');
             $table->string('price');
+            $table->string('tid');
             $table->timestamps();
         });
     }

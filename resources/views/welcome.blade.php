@@ -6,7 +6,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>COIN BASE - Cryptocurrency Status Check</title>
-        <link rel="shortcut icon" href="{{{ asset('/img/favicon.png') }}}">
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
@@ -98,10 +97,10 @@
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Login With Facebook</a>
-                    <a href="https://laracasts.com">Login With Google</a>
-                    <a href="/about">About</a>
-                    <a href="#">About Author</a>
+                    <a href="{{ route('social.auth', ['provider' => 'facebook']) }}">Login With Facebook</a>
+                    <a href="{{ route('social.auth', ['provider' => 'google']) }}">Login With Google</a>
+                    <a href="{{ route('social.auth', ['provider' => 'github']) }}">Login With GitHub</a>
+                    <a href="">About Author</a>
                 </div>
             </div>
         </div>

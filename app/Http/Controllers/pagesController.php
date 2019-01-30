@@ -9,6 +9,7 @@ class pagesController extends Controller
     public function about(){
         return view('about');
     }
+
 }
 
-//users model
+
