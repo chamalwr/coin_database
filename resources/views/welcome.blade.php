@@ -100,7 +100,7 @@
                     <a href="{{ route('social.auth', ['provider' => 'facebook']) }}">Login With Facebook</a>
                     <a href="{{ route('social.auth', ['provider' => 'google']) }}">Login With Google</a>
                     <a href="{{ route('social.auth', ['provider' => 'github']) }}">Login With GitHub</a>
-                    <a href="">About Author</a>
+                    <a href="">About</a>
                 </div>
             </div>
         </div>
