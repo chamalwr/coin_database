@@ -93,7 +93,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    COIN BASE
+                    COIN DATABASE
                 </div>
 
                 <div class="links">
